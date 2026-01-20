@@ -1,4 +1,4 @@
-# This is one of the conservative attempts made but resulted in 5979 new standard spellings and only 337 typos found while immediately seeing city names that shouldnt have been merged together.
+# This is one of the conservative attempts made but resulted in 5979 new standard spellings and only 337 typos found, out of 6316 unique spellings, while immediately seeing city names that shouldnt have been merged together.
 
 
 import pandas as pd
