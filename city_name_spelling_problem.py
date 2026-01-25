@@ -1,6 +1,11 @@
 # This is one of the conservative attempts made but resulted in 5979 new standard spellings and only 337 typos found, out of 6316 unique spellings, while immediately seeing city names that shouldnt have been merged together.
-
-
+#________________________________________________________________________________________________________________________________
+# SETTING UP A ROUGH IDEA FOR APPROACH NEXT TIME:
+# find the most common entries in the data table, order the list by frequency then alphabetical.
+# create a list of the top 100 most frequent cities listed, start checking each following entry and see if there
+# is a match above that one where the leventshein distance is less than x amount. if thats the case, find a way to join it
+# to the "parent" spelling and also make sure to keep note of the previous spelling since ill need to check later if it was
+# an appropriate joining
 import pandas as pd
 import csv
 import jellyfish
